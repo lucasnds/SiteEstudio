@@ -1,0 +1,138 @@
+            body {
+                background-color: #1e1e1e;
+                max-width: 960px;
+                margin: 0 auto;
+                font-family: 'Inter';
+                box-sizing: border-box;
+            }
+            
+            header {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                width: 100%;
+                padding: 3% 0% 10% 0%;
+                justify-content: center;
+            }
+            
+            header a {
+                text-decoration: none;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 44px;
+                color: #FFFFFF;
+            }
+            
+            .login {
+                padding-bottom: 10%;
+            }
+            
+            .Principal {
+                border: 1px #fff solid;
+                border-radius: 20px;
+                width: 500px;
+                height: 600px;
+                margin-left: auto;
+                margin-right: auto;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .Principal img {
+                width: 164px;
+                height: 150px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .Principal a {
+                text-decoration: none;
+                cursor: pointer;
+                color: #FFFFFF;
+                cursor: default;
+            }
+            
+            .Principal a>span {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            
+            form {
+                width: 50%;
+                max-width: 350px;
+            }
+            
+            div.input-single {
+                width: 100%;
+                margin: 30px 0px;
+                position: relative;
+            }
+            
+            div.input-single label {
+                font-size: 16px;
+                position: absolute;
+                left: 0;
+                bottom: 5px;
+                color: #666;
+                cursor: text;
+                transition: 0.3s ease-in-out;
+                width: 38%;
+            }
+            
+            div.input-single .input {
+                width: 70%;
+                padding: 5px;
+                color: #fff;
+                border: 0;
+                border-bottom: 1px solid rgb(211, 65, 8);
+                outline: 0;
+                font-size: 16px;
+                background-color: #1e1e1e;
+            }
+            
+            div.input-single .input:focus,
+            div.input-single .input:valid {
+                border-bottom: 1px solid orange;
+            }
+            
+            div.input-single .input:focus~label,
+            div.input-single .input:valid~label {
+                transform: translateY(-24px);
+                font-size: 12px;
+                color: #666;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            button {
+                padding: 10px 40px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                font-size: 15px;
+                font-weight: 600;
+            }
+            
+            button:hover {
+                background-color: #828282;
+                color: #FFFFFF;
+            }
+            
+            footer {
+                background-color: #0E0E0E;
+                padding: 2% 0%;
+                align-items: center;
+                text-align: center;
+            }
+            
+            footer p {
+                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                color: #666;
+                margin: 5% 0% 0% 0%;
+                font-family: 'Inter', sans-serif;
+            }
