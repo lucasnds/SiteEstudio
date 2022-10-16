@@ -4,6 +4,10 @@ body {
     margin: 0 auto;
 }
 
+#degrade {
+    background-image: linear-gradient(#1e1e1e, #0c0c0c);
+}
+
 header {
     display: flex;
     width: 100%;
@@ -167,7 +171,7 @@ header img {
 }
 
 footer {
-    background-color: #0E0E0E;
+    background-color: #000;
 }
 
 .footerGeral {

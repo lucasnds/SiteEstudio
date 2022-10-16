@@ -122,7 +122,6 @@
             
             footer {
                 background-color: #0E0E0E;
-                padding: 2% 0%;
                 align-items: center;
                 text-align: center;
             }
@@ -134,5 +133,6 @@
                 font-size: 15px;
                 color: #666;
                 margin: 5% 0% 0% 0%;
+                padding: 2% 0%;
                 font-family: 'Inter', sans-serif;
             }
