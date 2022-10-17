@@ -49,7 +49,6 @@
             
             .Principal a {
                 text-decoration: none;
-                cursor: pointer;
                 color: #FFFFFF;
                 cursor: default;
             }
@@ -123,7 +122,6 @@
             footer {
                 background-color: #0E0E0E;
                 align-items: center;
-                text-align: center;
             }
             
             footer p {

@@ -2,6 +2,8 @@ body {
     background-color: #1e1e1e;
     max-width: 1360px;
     margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
 }
 
 #degrade {
@@ -29,13 +31,10 @@ header img {
 
 .menu-principal ul li a {
     text-decoration: none;
-    color: #fff;
     font-family: 'Inter', sans-serif;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 18px;
     color: #FFFFFF;
 }
 
@@ -51,7 +50,6 @@ header img {
     border-style: none;
     padding-right: 30px;
     color: #fff;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -65,7 +63,6 @@ header img {
 }
 
 .botao #cadastre-se {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -87,7 +84,6 @@ header img {
 }
 
 .parteUm h1 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -98,7 +94,6 @@ header img {
 }
 
 .parteUm p {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -108,7 +103,6 @@ header img {
 }
 
 .estrutura h1 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -121,7 +115,6 @@ header img {
 }
 
 .estrutura ul li a {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -136,7 +129,6 @@ header img {
 }
 
 .capacidade h1 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -149,7 +141,6 @@ header img {
 }
 
 .capacidade ul li a {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -182,7 +173,6 @@ footer {
 }
 
 .footerGeral h1 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -191,7 +181,6 @@ footer {
 }
 
 .footerGeral h2 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -200,7 +189,6 @@ footer {
 }
 
 p {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
