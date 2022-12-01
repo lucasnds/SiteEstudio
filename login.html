@@ -15,31 +15,34 @@
 
     <header>
         <a href="index.html"><img src="./imagens/whitehome.png"></a>
-        <a href="index.html">HOME</a>
+
     </header>
     <main>
         <section class="login">
             <div class="Principal">
                 <img src="./imagens/logoAutofalante.png">
                 <br>
-                <for>
+                <form>
                     <div class="input-single">
                         <input required type="email" id="email" class="input">
-                        <label for="email">E-mail</label>
+                        <label id="email" for="email">E-mail</label>
                     </div>
                     <div class="input-single">
                         <input required type="password" id="senha" class="input">
                         <label for="senha">Senha</label>
                     </div>
-                    </form>
-                    <button>Login</button>
-                    <br><br><br><br><br><br><br><br><br><br><br><br>
-                    <a href="cadastro.html">Não tem cadastro? <span>Cadastre-se aqui</span> </a>
+                </form>
+                <a id="esqueceu-senha" href="#">Esqueceu a senha?</a>
+                <br>
+                <button>Login</button>
+
+                <div class="cadastre-se"><a href="cadastro.html">Não tem cadastro? <span>Cadastre-se aqui</span> </a></div>
+                <br>
             </div>
         </section>
     </main>
     <footer>
-        <p>Lucas Nascimento Developer &copy /<i>HTML & CSS </i>/ 2022</p>
+        <p>Lucas Nascimento Developer &copy; 2022</p>
     </footer>
 </body>
 

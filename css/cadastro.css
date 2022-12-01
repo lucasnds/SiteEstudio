@@ -1,6 +1,6 @@
 body {
     background-color: #1e1e1e;
-    width: 960px;
+    /* width: 960px; */
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
@@ -12,24 +12,20 @@ header {
     justify-content: center;
     gap: 10px;
     width: 100%;
-    padding: 3% 0% 10% 0%;
+    padding: 30px 0% 100px 0%;
 }
 
-header #home {
-    color: #fff;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 36px;
-    line-height: 44px;
-}
+
+/* header img:hover {
+    box-shadow: 1px 0.6px 2px #fff;
+} */
 
 .principal {
     border: 1px #fff solid;
     border-radius: 20px;
     width: 500px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    /* height: 600px; */
+    margin: 0 auto;
     align-items: center;
     text-align: center;
 }
@@ -42,7 +38,7 @@ header #home {
 .topo {
     display: flex;
     align-items: center;
-    margin-bottom: 5%;
+    margin: 10px;
 }
 
 .topo h1 {
@@ -94,7 +90,7 @@ label {
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     background-color: rgba(255, 166, 0, 0.815);
 }
 
@@ -129,6 +125,6 @@ footer {
     font-weight: 400;
     font-size: 15px;
     color: #666;
-    margin: 8% 0% 0% 0%;
-    padding: 2% 0%;
+    margin-top: 80px;
+    padding: 20px 0;
 }
