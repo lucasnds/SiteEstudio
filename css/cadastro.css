@@ -1,130 +1,197 @@
-body {
-    background-color: #1e1e1e;
-    /* width: 960px; */
-    margin: 0 auto;
-    font-family: 'Inter', sans-serif;
-    box-sizing: border-box;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-    padding: 30px 0% 100px 0%;
-}
-
-
-/* header img:hover {
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #1e1e1e;
+            /* width: 960px; */
+            margin: 0 auto;
+            font-family: 'Inter', sans-serif;
+            box-sizing: border-box;
+        }
+        
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 30px 0% 100px 0%;
+        }
+        /* header img:hover {
     box-shadow: 1px 0.6px 2px #fff;
 } */
-
-.principal {
-    border: 1px #fff solid;
-    border-radius: 20px;
-    width: 500px;
-    /* height: 600px; */
-    margin: 0 auto;
-    align-items: center;
-    text-align: center;
-}
-
-.principal img {
-    width: 100px;
-    height: 95px;
-}
-
-.topo {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-}
-
-.topo h1 {
-    padding-left: 5%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 48px;
-    color: #FFFFFF;
-}
-
-input {
-    padding: 15px;
-    border-radius: 15px;
-    border: 0;
-    outline: 0;
-    margin: 3% 0%;
-}
-
-#nome {
-    width: 89%;
-}
-
-#email {
-    width: 57%;
-}
-
-#data {
-    width: 25%;
-    position: relative;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-label {
-    color: grey;
-    position: absolute;
-    font-size: 13px;
-}
-
-#senha {
-    width: 41%;
-}
-
-#botao {
-    border-radius: 10px;
-    border: 0;
-    padding: 3% 5%;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    /* margin-top: 10%; */
-    background-color: rgba(255, 166, 0, 0.815);
-}
-
-#botao:hover {
-    background-color: #828282;
-    color: #FFFFFF;
-}
-
-.entreaqui a {
-    margin-top: -100px;
-    text-decoration: none;
-    justify-content: center;
-    color: #fff;
-    cursor: default;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.entreaqui a>span {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.entreaqui {
-    text-align: center;
-}
-
-footer {
-    background-color: #0e0e0e;
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    color: #666;
-    margin-top: 80px;
-    padding: 20px 0;
-}
+        
+        .principal {
+            border: 1px #fff solid;
+            border-radius: 20px;
+            width: 500px;
+            /* height: 600px; */
+            margin: 0 auto;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .principal img {
+            width: 100px;
+            height: 95px;
+        }
+        
+        .topo {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+        }
+        
+        .topo h1 {
+            padding-left: 5%;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+        
+        input {
+            padding: 15px;
+            border-radius: 10px;
+            border: 0;
+            outline: 0;
+            margin: 15px 0%;
+        }
+        
+        #nome {
+            width: 82.5%;
+        }
+        
+        #email {
+            width: 57%;
+        }
+        
+        #data {
+            width: 25%;
+            position: relative;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        label {
+            color: #ccc;
+            position: absolute;
+            font-size: 13px;
+        }
+        
+        #senha {
+            width: 41%;
+        }
+        
+        #botao {
+            border-radius: 10px;
+            border: 0;
+            padding: 15px 30px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            /* margin-top: 10%; */
+            background-color: rgba(255, 166, 0, 0.815);
+            margin: 20px 0px 60px 0px;
+        }
+        
+        #botao:hover {
+            background-color: #828282;
+            color: #FFFFFF;
+        }
+        
+        .entreaqui a {
+            /* margin-top: -100px; */
+            text-decoration: none;
+            /* justify-content: center; */
+            color: #fff;
+            cursor: default;
+            /* margin-left: auto;
+    margin-right: auto; */
+            padding-bottom: 10px;
+        }
+        
+        .entreaqui a>span {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .entreaqui {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        
+        footer {
+            background-color: #0e0e0e;
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            color: #666;
+            margin-top: 80px;
+            padding: 20px 0;
+        }
+        
+        @media (max-width:550px) {
+            .principal {
+                width: 400px;
+            }
+            #nome {
+                width: 91.5%;
+            }
+            #email {
+                width: 57%;
+            }
+            #data {
+                width: 33%;
+                position: relative;
+                cursor: pointer;
+                margin-top: 20px;
+            }
+            label {
+                color: #ccc;
+                position: absolute;
+                font-size: 13px;
+            }
+            #senha {
+                width: 45%;
+            }
+        }
+        
+        @media (max-width:450px) {
+            .principal {
+                width: 90%;
+                min-width: 320px;
+                position: relative;
+            }
+            input {
+                display: block;
+                margin: 25px auto;
+            }
+            #nome {
+                width: 95%;
+            }
+            #email {
+                width: 95%;
+            }
+            #data {
+                width: 95%;
+                position: relative;
+                cursor: pointer;
+                margin-top: 7.5px;
+            }
+            label {
+                color: #ccc;
+                position: absolute;
+                font-size: 13px;
+                left: 10px;
+                top: 250px;
+            }
+            #senha {
+                width: 95%;
+            }
+        }
