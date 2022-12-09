@@ -147,13 +147,14 @@
         cursor: pointer;
         font-size: 16px;
         font-weight: 600;
-        background-color: rgba(255, 166, 0, 0.815);
+        background-color: rgba(255, 166, 0, 0.8);
         display: block;
         margin: 30px auto;
+        transition: .5s;
     }
     
     #botao:hover {
-        background-color: rgba(255, 166, 0, 0.6);
+        background-color: rgba(255, 166, 0, 1);
     }
     
     .entreaqui a {
@@ -187,30 +188,7 @@
     
     @media (max-width:550px) {
         .principal {
-            width: 400px;
-        }
-        #nome {
-            width: 91.5%;
-        }
-        #email {
-            width: 57%;
-        }
-        #data {
-            width: 33%;
-            position: relative;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-        label {
-            color: #ccc;
-            position: absolute;
-            font-size: 13px;
-        }
-        #senha {
-            width: 45%;
-        }
-        .topo {
-            margin: 10px;
+            width: 90%;
         }
         footer {
             margin-top: 80px;
@@ -221,32 +199,5 @@
         .principal {
             width: 90%;
             min-width: 320px;
-            position: relative;
-        }
-        input {
-            display: block;
-            margin: 25px auto;
-        }
-        #nome {
-            width: 95%;
-        }
-        #email {
-            width: 95%;
-        }
-        #data {
-            width: 95%;
-            position: relative;
-            cursor: pointer;
-            margin-top: 7.5px;
-        }
-        label {
-            color: #ccc;
-            position: absolute;
-            font-size: 13px;
-            left: 10px;
-            top: 250px;
-        }
-        #senha {
-            width: 95%;
         }
     }
