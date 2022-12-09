@@ -21,25 +21,59 @@
                 <img src="./imagens/logoAutofalante.png">
                 <h1>Cadastro:</h1>
             </div>
-            <form>
-                <input type="text" id="nome" placeholder="Digite seu nome completo">
-                <input type="email" id="email" placeholder="Digite seu e-mail">
-                <label for="data">Data de nascimento:</label>
-                <input type="date" id="data">
-                <input type="password" id="senha" placeholder="Crie uma senha">
-                <input type="password" id="senha" placeholder="Confirme sua senha">
+            <form id="form" class="form">
+                <div class="forms-control">
+                    <label for="username">Nome completo</label>
+                    <input type="text" id="name" placeholder="Digite seu nome completo">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small></div>
+
+                <div class="forms-control">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" placeholder="Digite seu e-mail">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="forms-control">
+                    <label for="date">Data de nascimento:</label>
+                    <input type="date" id="date">
+                    <i class="fas fa-exclamation-circle data"></i>
+                    <i class="fas fa-check-circle data"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="forms-control">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Crie uma senha ">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+                <div class="forms-control">
+                    <label for="password-confirmation">Confirme sua senha</label>
+                    <input type="password" id="passwordConfirmation" placeholder="Confirme sua senha ">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <button type="submit" id="botao">Criar conta</button>
             </form>
-            <button id="botao">Crie sua conta</button>
 
             <div class="entreaqui"><a href="login.html"> Já tem uma conta?<span> Entre aqui</span></a>
             </div>
         </div>
-        <!-- <div class="image"><img src="./imagens/fotoEstudio.jpg" alt=""></div> -->
+        <!-- <div class="image "><img src="./imagens/fotoEstudio.jpg " alt=" "></div> -->
     </div>
 
     <footer>
         <p>Lucas Nascimento Developer &copy; 2022</p>
     </footer>
+    <script src="./js/app.js"></script>
+    <script src="https://kit.fontawesome.com/21617eeeb1.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

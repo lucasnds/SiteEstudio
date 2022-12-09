@@ -1,228 +1,252 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #1e1e1e;
-    /* width: 960px; */
-    margin: 0 auto;
-    font-family: 'Inter', sans-serif;
-    box-sizing: border-box;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-    padding: 30px 0% 100px 0%;
-}
-
-
-/* header img:hover {
-    box-shadow: 1px 0.6px 2px #fff;
-} */
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* gap: 20px; */
-}
-
-
-/* .image {
-            display: flex;
-            justify-content: center;
-            width: ;
-        } */
-
-
-/* .image img {
-    background-image: url('imagens/fotoEstudio.jpg');
-    background-size: cover;
-    border-radius: 20px;
-    width: 89%;
-} */
-
-.principal {
-    border: 1px #fff solid;
-    border-radius: 20px;
-    width: 500px;
-    /* height: 600px; */
-    /* margin: auto; */
-    align-items: center;
-    text-align: center;
-}
-
-.principal img {
-    width: 100px;
-    height: 95px;
-}
-
-.topo {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    margin-left: 44px;
-}
-
-.topo h1 {
-    padding-left: 5%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 48px;
-    color: #FFFFFF;
-}
-
-input {
-    padding: 15px;
-    border-radius: 10px;
-    border: 0;
-    outline: 0;
-    margin: 15px 0%;
-}
-
-#nome {
-    width: 82.5%;
-}
-
-#email {
-    width: 57%;
-}
-
-#data {
-    width: 25%;
-    position: relative;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-label {
-    color: #ccc;
-    position: absolute;
-    font-size: 13px;
-}
-
-#senha {
-    width: 41%;
-}
-
-#botao {
-    border-radius: 10px;
-    border: 0;
-    padding: 15px 30px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    /* margin-top: 10%; */
-    background-color: rgba(255, 166, 0, 0.815);
-    margin: 20px 0px 60px 0px;
-}
-
-#botao:hover {
-    background-color: #828282;
-    color: #FFFFFF;
-}
-
-.entreaqui a {
-    /* margin-top: -100px; */
-    text-decoration: none;
-    /* justify-content: center; */
-    color: #fff;
-    cursor: default;
-    /* margin-left: auto;
-    margin-right: auto; */
-    padding-bottom: 10px;
-}
-
-.entreaqui a>span {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.entreaqui {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-footer {
-    background-color: #0e0e0e;
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    color: #666;
-    margin-top: 205px;
-    padding: 20px 0;
-}
-
-@media (max-width:550px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        background-color: #1e1e1e;
+        margin: 0 auto;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        padding: 30px 0% 100px 0%;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .principal {
-        width: 400px;
+        border-radius: 20px;
+        width: 500px;
+        background-color: #fff;
+        padding: 20px;
     }
-    #nome {
-        width: 91.5%;
-    }
-    #email {
-        width: 57%;
-    }
-    #data {
-        width: 33%;
-        position: relative;
-        cursor: pointer;
-        margin-top: 20px;
-    }
-    label {
-        color: #ccc;
-        position: absolute;
-        font-size: 13px;
-    }
-    #senha {
-        width: 45%;
-    }
-    .topo {
-        margin: 10px;
-    }
-    footer {
-        margin-top: 80px;
-    }
-}
-
-@media (max-width:450px) {
-    .principal {
-        width: 90%;
-        min-width: 320px;
-        position: relative;
-    }
-    input {
+    
+    form {
         display: block;
-        margin: 25px auto;
     }
-    #nome {
-        width: 95%;
-    }
-    #email {
-        width: 95%;
-    }
-    #data {
-        width: 95%;
+    
+    .forms-control {
         position: relative;
-        cursor: pointer;
-        margin-top: 7.5px;
     }
+    
+    .principal img {
+        width: 100px;
+        height: 95px;
+    }
+    
+    .topo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .topo h1 {
+        padding-left: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 48px;
+        color: #000;
+    }
+    
     label {
-        color: #ccc;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
         position: absolute;
-        font-size: 13px;
-        left: 10px;
-        top: 250px;
+        top: 25px;
     }
-    #senha {
-        width: 95%;
+    
+    input {
+        padding: 15px 10px;
+        border-radius: 10px;
+        outline: 0;
+        border: 0;
+        background-color: #DCDCDC;
+        width: 100%;
+        outline: 2px solid #DCDCDC;
+        margin-top: 45px;
     }
-}
+    
+    input::placeholder {
+        font-size: 1.4rem;
+    }
+    
+    input:focus {
+        outline: 2px solid #000;
+    }
+    
+    #date {
+        cursor: pointer;
+    }
+    
+    .fas {
+        position: absolute;
+        visibility: hidden;
+        top: 60px;
+        right: 10px;
+        font-size: 1.6rem;
+    }
+    
+    .fas.data {
+        right: 40px;
+    }
+    
+    small {
+        visibility: hidden;
+        font-size: 1.4rem;
+        position: absolute;
+        width: 100%;
+        bottom: -20px;
+        right: 0;
+    }
+    /* Error and Success */
+    
+    .forms-control.success input {
+        outline-color: #2ecc71;
+    }
+    
+    .forms-control.error input {
+        outline-color: #e74c3c;
+    }
+    
+    .forms-control.success i.fa-check-circle {
+        color: #2ecc71;
+        visibility: visible;
+    }
+    
+    .forms-control.error i.fa-exclamation-circle {
+        color: #e74c3c;
+        visibility: visible;
+    }
+    
+    .forms-control.error small {
+        visibility: visible;
+        color: #e74c3c;
+    }
+    /* _____________________________ */
+    
+    #botao {
+        border-radius: 10px;
+        border: 0;
+        padding: 15px 30px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: rgba(255, 166, 0, 0.815);
+        display: block;
+        margin: 30px auto;
+    }
+    
+    #botao:hover {
+        background-color: rgba(255, 166, 0, 0.6);
+    }
+    
+    .entreaqui a {
+        text-decoration: none;
+        color: #000;
+        cursor: default;
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .entreaqui a>span {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .entreaqui {
+        text-align: center;
+    }
+    
+    footer {
+        background-color: #0e0e0e;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #666;
+        margin-top: 205px;
+        padding: 20px 0;
+    }
+    
+    @media (max-width:550px) {
+        .principal {
+            width: 400px;
+        }
+        #nome {
+            width: 91.5%;
+        }
+        #email {
+            width: 57%;
+        }
+        #data {
+            width: 33%;
+            position: relative;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        label {
+            color: #ccc;
+            position: absolute;
+            font-size: 13px;
+        }
+        #senha {
+            width: 45%;
+        }
+        .topo {
+            margin: 10px;
+        }
+        footer {
+            margin-top: 80px;
+        }
+    }
+    
+    @media (max-width:450px) {
+        .principal {
+            width: 90%;
+            min-width: 320px;
+            position: relative;
+        }
+        input {
+            display: block;
+            margin: 25px auto;
+        }
+        #nome {
+            width: 95%;
+        }
+        #email {
+            width: 95%;
+        }
+        #data {
+            width: 95%;
+            position: relative;
+            cursor: pointer;
+            margin-top: 7.5px;
+        }
+        label {
+            color: #ccc;
+            position: absolute;
+            font-size: 13px;
+            left: 10px;
+            top: 250px;
+        }
+        #senha {
+            width: 95%;
+        }
+    }
