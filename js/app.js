@@ -18,7 +18,7 @@ function checkInputs() {
     const dateValue = date.value;
     const passwordValue = password.value;
     const passwordConfirmationValue = passwordConfirmation.value;
-    const Numbers = Number;
+    //const Numbers = Number;
 
     // verificação do input name
     if (nameValue === '') {
@@ -74,6 +74,9 @@ function checkInputs() {
         console.log("O formulário está 100% válido!");
     }
 }
+
+
+
 //funcao para erro
 function setError(input, message) {
     const formControl = input.parentElement;
