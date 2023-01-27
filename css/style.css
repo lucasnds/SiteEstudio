@@ -1,259 +1,282 @@
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            background-color: #1e1e1e;
-            /* max-width: 1360px; */
-            margin: 0 auto;
-            font-family: 'Inter', sans-serif;
-            color: #FFFFFF;
-        }
-        
-        header {
-            display: flex;
-            width: 100%;
-            text-align: center;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        header img {
-            width: 150px;
-            height: 129.3px;
-        }
-        
-        #logo {
-            padding-left: 30px;
-        }
-        
-        .menu-principal {
-            margin-top: -75px;
-        }
-        
-        .menu-principal ul {
-            list-style: none;
-            display: flex;
-            gap: 44px;
-        }
-        
-        .menu-principal ul li a {
-            text-decoration: none;
-            font-family: 'Inter', sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 15px;
-            color: #FFFFFF;
-        }
-        
-        .menu-principal ul li a:hover {
-            color: #666;
-        }
-        
-        .botao a {
-            text-decoration: none;
-        }
-        
-        .botao {
-            padding-right: 30px;
-        }
-        
-        .botao #entre {
-            border-style: none;
-            padding-right: 30px;
-            color: #fff;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;
-            text-decoration-line: underline;
-            color: #FFFFFF;
-        }
-        
-        .botao #entre:hover {
-            color: #666;
-        }
-        
-        .botao #cadastre-se {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;
-            text-decoration-line: underline;
-            color: #FFFFFF;
-        }
-        
-        .botao #cadastre-se:hover {
-            color: #666;
-        }
-        /* .banner {
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            
+            html {
+                scroll-behavior: smooth;
+                font-size: 62.5%;
+            }
+            
+            body {
+                background-color: #1e1e1e;
+                /* max-width: 1360px; */
+                margin: 0 auto;
+                font-family: 'Inter', sans-serif;
+                color: #FFFFFF;
+            }
+            
+            header {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 30px;
+            }
+            
+            header img {
+                width: 150px;
+                height: 129.3px;
+            }
+            
+            .menu-principal ul {
+                list-style: none;
+                display: flex;
+                gap: 44px;
+            }
+            
+            .menu-principal ul li a {
+                text-decoration: none;
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.8rem;
+                color: #FFFFFF;
+                transition: .5s;
+            }
+            
+            .menu-principal ul li a:hover {
+                color: #666;
+            }
+            
+            .botao a {
+                font-size: 2.0rem;
+                text-decoration-line: underline;
+                color: #FFFFFF;
+                font-weight: 400;
+                border-style: none;
+                transition: .5s;
+            }
+            
+            .botao>a {
+                padding-right: 20px;
+            }
+            
+            .botao a:hover {
+                color: #666;
+            }
+            /* .banner {
         padding: 5% 0;
     } */
-        
-        .banner img {
-            width: 80%;
-        }
-        
-        .banner div {
-            text-align: center;
-        }
-        
-        .parteUm {
-            padding: 80px 20px
-        }
-        
-        .parteUm h3 {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 32px;
-            line-height: 39px;
-            text-align: center;
-            text-transform: uppercase;
-            color: #FFFFFF;
-        }
-        
-        .parteUm p {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;
-            text-align: justify;
-            color: #FFFFFF;
-        }
-        
-        .parteDois {
-            padding: 0px 20px;
-        }
-        
-        .estrutura h4 {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 32px;
-            line-height: 39px;
-            color: #FFFFFF;
-            margin-bottom: 10px;
-        }
-        
-        .estrutura ul li {
-            list-style: none;
-            margin-left: 10px;
-            line-height: 2;
-        }
-        
-        .estrutura ul li a {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 24px;
-            line-height: 29px;
-            color: #FFFFFF;
-            text-decoration: none;
-        }
-        
-        .estrutura ul li::before {
-            content: "▪";
-            color: #FFFFFF
-        }
-        
-        .capacidade h4 {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 32px;
-            line-height: 39px;
-            color: #FFFFFF;
-            margin-bottom: 10px;
-        }
-        
-        .capacidade ul li {
-            list-style: none;
-            margin-left: 10px;
-            line-height: 2;
-        }
-        
-        .capacidade ul li a {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 24px;
-            line-height: 29px;
-            color: #FFFFFF;
-            text-decoration: none;
-        }
-        
-        .capacidade ul li::before {
-            content: "▪";
-            color: #FFFFFF
-        }
-        
-        .parteDoisGeral {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-bottom: 10%;
-            flex: 1 1 200px;
-        }
-        /* .listas {
-            flex-grow: 1;
-        } */
-        /* #imagemViolao img {
-            height: 50%;
-            width: 50%;
-        } */
-        
-        footer {
-            border-top: 1px#FFFFFF solid;
-        }
-        
-        .footerGeral {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .footerGeral h5 {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 20px;
-            color: #FFFFFF;
-        }
-        
-        .footerGeral h6 {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 17px;
-            line-height: 20px;
-            color: #FFFFFF;
-        }
-        
-        p {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 20px;
-            color: #666;
-            margin: 20px 0px;
-            text-align: center;
-        }
-        
-        #svgEtexto {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            padding-bottom: 10px;
-            text-align: center;
-        }
-        
-        .rodape {
-            padding-top: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            flex-basis: 250px;
-        }
-        
-        #clock {
+            
+            .banner img {
+                width: 100%;
+            }
+            
+            .banner div {
+                text-align: center;
+            }
+            
+            .parteUm {
+                padding: 120px 0px
+            }
+            
+            .parteUm h3 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 39px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            
+            .parteUm p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.8rem;
+                text-align: center;
+                color: #FFFFFF;
+                max-width: 1300px;
+                margin: 20px auto 0px auto;
+            }
+            
+            .parteDois {
+                padding: 0px 20px;
+            }
+            
+            .estrutura h4 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 39px;
+                color: #FFFFFF;
+                margin-bottom: 10px;
+            }
+            
+            .estrutura ul li {
+                list-style: none;
+                margin-left: 10px;
+                line-height: 2;
+            }
+            
+            .estrutura ul li a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            
+            .estrutura ul li::before {
+                content: "▪";
+                color: #FFFFFF
+            }
+            
+            .capacidade h4 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 39px;
+                color: #FFFFFF;
+                margin-bottom: 10px;
+            }
+            
+            .capacidade ul li {
+                list-style: none;
+                margin-left: 10px;
+                line-height: 2;
+            }
+            
+            .capacidade ul li a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            
+            .capacidade ul li::before {
+                content: "▪";
+                color: #FFFFFF
+            }
+            
+            .parteDoisGeral {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 10%;
+            }
+            
+            .listas {
+                width: 50%;
+            }
+            
+            #imagemViolao {
+                width: 50%;
+                height: 700px;
+                background-image: url('../imagens/SegurandoViolao.png');
+                background-size: cover;
+            }
+            
+            footer {
+                border-top: 1px#FFFFFF solid;
+            }
+            
+            .footerGeral {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 10px;
+            }
+            
+            .footerGeral h5 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2.2rem;
+                line-height: 20px;
+                color: #FFFFFF;
+            }
+            
+            .footerGeral h6 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2.0rem;
+                line-height: 20px;
+                color: #FFFFFF;
+            }
+            
+            footer p {
+                font-size: 1.7rem;
+                line-height: 20px;
+                color: #666;
+                padding: 20px 0px 20px 0px;
+                text-align: center;
+                background-color: #0E0E0E;
+            }
+            
+            #svgEtexto {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+            }
+            
+            .rodape {
+                padding-top: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex-basis: 250px;
+            }
+            /* #clock {
             margin-right: -41px;
-        }
+        } */
+            
+            @media(max-width:1000px) {
+                .menu-principal {
+                    display: none;
+                }
+                header img {
+                    width: 100px;
+                    height: 86px;
+                }
+            }
+            
+            @media(max-width:700px) {
+                .footerGeral {
+                    flex-direction: column;
+                }
+                .rodape {
+                    flex-basis: 100px;
+                }
+                .parteDoisGeral {
+                    flex-direction: column;
+                    gap: 80px;
+                }
+                #imagemViolao {
+                    width: 100%;
+                    height: 700px;
+                }
+                .listas {
+                    width: 100%;
+                }
+            }
+            
+            @media(max-width:600px) {
+                .botao a {
+                    font-size: 1.6rem;
+                }
+                .parteUm h3 {
+                    font-size: 2.2rem;
+                }
+                .parteUm p {
+                    font-size: 1.7rem;
+                }
+            }
