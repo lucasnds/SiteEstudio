@@ -39,7 +39,6 @@
             .menu-principal ul li a {
                 text-decoration: none;
                 font-family: 'Inter', sans-serif;
-                font-style: normal;
                 font-weight: 400;
                 font-size: 1.8rem;
                 color: #FFFFFF;
@@ -83,18 +82,15 @@
             }
             
             .parteUm h3 {
-                font-style: normal;
                 font-weight: 400;
                 font-size: 32px;
-                line-height: 39px;
                 text-align: center;
                 text-transform: uppercase;
                 color: #FFFFFF;
+                font-weight: 500;
             }
             
             .parteUm p {
-                font-style: normal;
-                font-weight: 400;
                 font-size: 1.8rem;
                 text-align: center;
                 color: #FFFFFF;
@@ -107,25 +103,19 @@
             }
             
             .estrutura h4 {
-                font-style: normal;
-                font-weight: 400;
                 font-size: 32px;
-                line-height: 39px;
                 color: #FFFFFF;
                 margin-bottom: 10px;
+                font-weight: 500;
             }
             
             .estrutura ul li {
                 list-style: none;
                 margin-left: 10px;
-                line-height: 2;
             }
             
-            .estrutura ul li a {
-                font-style: normal;
-                font-weight: 400;
-                font-size: 24px;
-                line-height: 29px;
+            .estrutura ul li {
+                font-size: 1.8rem;
                 color: #FFFFFF;
                 text-decoration: none;
             }
@@ -136,25 +126,19 @@
             }
             
             .capacidade h4 {
-                font-style: normal;
-                font-weight: 400;
                 font-size: 32px;
-                line-height: 39px;
                 color: #FFFFFF;
                 margin-bottom: 10px;
+                font-weight: 500;
             }
             
             .capacidade ul li {
                 list-style: none;
                 margin-left: 10px;
-                line-height: 2;
             }
             
-            .capacidade ul li a {
-                font-style: normal;
-                font-weight: 400;
-                font-size: 24px;
-                line-height: 29px;
+            .capacidade ul li {
+                font-size: 1.8rem;
                 color: #FFFFFF;
                 text-decoration: none;
             }
@@ -177,7 +161,7 @@
             
             #imagemViolao {
                 width: 50%;
-                height: 700px;
+                height: 900px;
                 background-image: url('../imagens/SegurandoViolao.png');
                 background-size: cover;
             }
@@ -194,24 +178,17 @@
             }
             
             .footerGeral h5 {
-                font-style: normal;
-                font-weight: 400;
                 font-size: 2.2rem;
-                line-height: 20px;
                 color: #FFFFFF;
             }
             
             .footerGeral h6 {
-                font-style: normal;
-                font-weight: 400;
                 font-size: 2.0rem;
-                line-height: 20px;
                 color: #FFFFFF;
             }
             
             footer p {
                 font-size: 1.7rem;
-                line-height: 20px;
                 color: #666;
                 padding: 20px 0px 20px 0px;
                 text-align: center;
@@ -273,10 +250,13 @@
                 .botao a {
                     font-size: 1.6rem;
                 }
-                .parteUm h3 {
+                .parteUm h3,
+                .capacidade h4,
+                .estrutura h4 {
                     font-size: 2.2rem;
                 }
                 .parteUm p {
                     font-size: 1.7rem;
+                    width: 90%;
                 }
             }
